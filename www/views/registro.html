@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar asistencia</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="form-card">
+  <h2>Registrar Asistencia</h2>
+
+  <label for="empleado">Empleado:</label>
+  <select id="empleado">
+    <option disabled selected>Selecciona un empleado</option>
+    <!-- Opciones se cargarán dinámicamente -->
+  </select>
+
+  <label for="estado">Estado:</label>
+  <div class="estado-buttons">
+    <button class="btn-success">Asistió</button>
+    <button class="btn-warning">Retardo</button>
+    <button class="btn-danger">Falta</button>
+  </div>
+
+  <label for="comentario">Comentario:</label>
+  <textarea id="comentario" rows="3" placeholder="Comentario opcional..."></textarea>
+
+  <button class="btn-primary">Guardar Asistencia</button>
+</div>
+
+
+</body>
+</html>
